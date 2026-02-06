@@ -30,5 +30,14 @@ Multi-factor equity return model built in Python.
 - scikit-learn
 - yfinance
 
+## Backtesting
+The strategy is backtested using monthly rebalancing.
+
+- Long top 30% of stocks by predicted return
+- Equal-weighted portfolio
+- Performance evaluated using cumulative returns and Sharpe ratio
+
+This avoids look-ahead bias and reflects a realistic rebalancing process.
+
 ## Disclaimer
 Educational project only. Not financial advice.
