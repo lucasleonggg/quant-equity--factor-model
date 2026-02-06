@@ -1,6 +1,6 @@
 # Quant Equity Factor Model
 
-Multi-factor equity return model built in Python.
+Multi-factor equity return model built in Python, including a rolling backtest with Sharpe ratio evaluation.
 
 ## Factors
 - Value (Earnings-to-Price)
